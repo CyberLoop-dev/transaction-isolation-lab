@@ -1,0 +1,11 @@
+{
+  "name": "transaction-isolation-lab",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "A local transaction-schedule analyzer for conflict serializability, dirty reads, and non-repeatable reads.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  }
+}
